@@ -1,0 +1,15 @@
+Elementos Agregados en el Archivo HTML.
+body --> todo el contenido visual de la pagina
+Header ---> Es el contenido que se encuentra en la parte superior y contiene...
+	Algunos --divs y sus clases--
+	nav--> contiene el menu de navegacion
+main ---> aqui esta el contenido principal de la pagina
+div class="contenedor-principal" ---> donde esta practicamente el contenido mas importante de la pagina 
+	sections---> estas secciones comienzan con un titutlo
+		h2 ---> titulo de las secciones 
+		<p> --> algunos parrafos
+		<img src=""> ---> algunas imagenes
+asaid ---> es un menu de acceso a las opciones que se genera a la izquierda
+footer---> Es informacion sobre la empresa, o algun tema que describe sobre la empresa.
+
+	
