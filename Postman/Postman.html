@@ -49,25 +49,25 @@
 							</div>
                             <div>
                                 <h5>Temario para principiantes:</h5>
-                                <ol>
-                                    <li>Introduccion-Que es Postman?</li>
-                                    <li>Aprendiento la Interface de Usiario</li>
-                                    <li>Como Crear la Primera API Request</li>
-                                    <li>Que es una Coleccion | Como creala?</li>
-                                    <li>Como Ejecutar una Coleccion?</li>
-                                    <li>Variables - Como crear variables y asignar</li>
-                                    <li>Como establecer y agregar Variables Scriptiando</li>
-                                    <li>Como crear Ambientes</li>
-                                    <li>Como crear Quick Scripts</li>
-                                    <li><a href="https://www.youtube.com/watch?v=N_mEuR-aGEY&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=10" target="_blank">Como crear mi Primer Prueba</a></li>
-                                    <li>Como Depurar</li>
-                                    <li>Como Ejecutar desde el Comando de Lineas</li>
-                                    <li>Como Ejecutar desde Jenkis</li>
-                                    <li><a href="https://www.youtube.com/watch?v=VBJ8Fp775Ss&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=14" target="_blank">Como crear y administrar WORKSPACES</a></li>
-                                    <li>Conduccion de datos (Data Driven) | Como datos de archivos CSV,JASON</li>
-                                    <li>Ejecutar Colecciones remotamente con URL </li>
-                                    <li>Como ejecutar SOAP Request</li>
-                                </ol>
+                                <ul>
+                                    <li>1.Introduccion-Que es Postman?</li>
+                                    <li>2.Aprendiento la Interface de Usiario</li>
+                                    <li>3.Como Crear la Primera API Request</li>
+                                    <li>4.Que es una Coleccion | Como creala?</li>
+                                    <li>5.Como Ejecutar una Coleccion?</li>
+                                    <li>6.Variables - Como crear variables y asignar</li>
+                                    <li>7.Como establecer y agregar Variables Scriptiando</li>
+                                    <li>8.Como crear Ambientes</li>
+                                    <li>9.Como crear Quick Scripts</li>
+                                    <li><a href="https://www.youtube.com/watch?v=N_mEuR-aGEY&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=10" target="_blank">10.Como crear mi Primer Prueba</a></li>
+                                    <li>11.Como Depurar</li>
+                                    <li>12.Como Ejecutar desde el Comando de Lineas</li>
+                                    <li>13.Como Ejecutar desde Jenkis</li>
+                                    <li><a href="https://www.youtube.com/watch?v=VBJ8Fp775Ss&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=14" target="_blank">14.Como crear y administrar WORKSPACES</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=BzHsDihOlfY&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=15" target="_blank">15.Conduccion de datos (Data Driven) | Como datos de archivos CSV,JSON</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=IoCXSpa3ou8&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=16" target="_blank">16.Ejecutar Colecciones remotamente con URL</a> </li>
+                                    <li>17.Como ejecutar SOAP Request</li>
+                                </ul>
                             </div>
                             <div>
                                 <h5>Pagina de platilla para obtener Request de ejemplo</h5>
@@ -83,7 +83,7 @@
 							<div>
 								<h4>API</h4>
 								<p>Una API es un conjunto de funciones y procedimientos que cumplen una o muchas funciones con el fin de ser utilizadas por otro software. Las siglas API vienen del ingles <i>Application Programming Interface</i>. En español sería <b>Interfaz de Programación de Aplicaciones</b>.</p>
-								<p>Una API nos permite implementar las funciones y procedimientos que engloban en nuestro proyecto sin la necesidad de programar de nuevo. En términos de programación, es una carpa de abstracción. </p>
+								<p>Una API nos permite implementar las funcones y procedimientos que engloban en nuestro proyecto sin la necesidad de programar de nuevo. En términos de programación, es una carpa de abstracción. </p>
 								<p>Por ejemplo, digamos que estas desarrollando una aplicación web y necesitas hacer peticiones HTTP. En lugar de desarrollar todo el código para hacer una petición HTTP, puedes utilizar una API que se encargue de esto, como por ejemplo Request de Python. Si necesitas utilizar archivos .yaml, puedes usar la API Yaml de Ruby.</p>
 								<p>Ahora, el termino API ha evolucionado un poco con la revolución de los servicios web que dieron lugar lo que hoy se conoce como API REST, o como muchos suelen llamarla, solo API.</p>
 							</div>
@@ -110,45 +110,75 @@
 								<p>Así como un objeto cualquiera tiene la propiedad de idempotencia si al realizar una operación muchas veces da el mismo resultado cual si se hubiese realizado la operación una sola vez, un método HTTP es idempotente si una solicitud idéntica puede realizarse una o demasiadas veces consecutivamente obteniendo el mismo resultado dejando al servidor en el mismo estado. </p>
 								<p>En la vida y en los números reales, podríamos llamar al 1 y al 0 como los únicos idempotentes para la operación de multiplicación, pues estos números al multiplicarse en muchas ocasiones, da como resultado el mismo (1^n =1). Volviendo a HTTP, los métodos que (implementados correctamente) son idempotentes son el GET, HEAD, PUT y DELETE y como lo explicamos en los métodos Safe, todos estos últimos son idempotentes. </p>
                                 <div class="Peticiones-work" id="pet-work">
-                                    <h4> Tarea desepeñada por la PETICION</h4>
                                     <div>
-                                        <h5>GET</h5>
-                                        <p>El metodo GET solocita una respresentacion de un recurso especifico. <b>Las peticiones que usan el metodo GET deben recuperar datos</b>.</p>
+                                        <table width="600">
+                                            <caption><h2>Tarea desempeñada por la Peticion</h2></caption>
+                                            <thead>
+                                                <tr>
+                                                    <th>PETICION</th>
+                                                    <th>FUNCION</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>GET</td>
+                                                    <td>El metodo GET solocita una respresentacion de un recurso especifico. <b>Las peticiones que usan el metodo GET deben recuperar datos</b>.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>GET</td>
+                                                    <td>El metodo GET solocita una respresentacion de un recurso especifico. <b>Las peticiones que usan el metodo GET deben recuperar datos</b>.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>HEAD</td>
+                                                    <td>El método HEAD pide una respuesta identica a la de una peticion GET, pero sin el cuerpo de la respuesta.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PUT</td>
+                                                    <td>El modo PUT reemplaza todas las respresentaciones actuales del recurso de destino con la carga util de la peticion.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>DELETE</td>
+                                                    <td>El método DELETE borra un recurso en especifico.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>OPTIONS</td>
+                                                    <td>El método OPTIONS es utilizado para describir las opciones de comunicacion para el recurso de destino.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TRACE</td>
+                                                    <td>El método TRACE realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recurso de destino</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PATCH</td>
+                                                    <td>l método PATCH es utilizado para aplicar modificaciones parciales a un recurso.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CONNECT</td>
+                                                    <td>El método CONNECT establece un tunel hacia el servidor identificado por el recurso.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
-                                    <div>
-                                        <h5>HEAD</h5>
-                                        <p>El método HEAD pide una respuesta identica a la de una peticion GET, pero sin el cuerpo de la respuesta.</p>
-                                    </div>
-                                    <div>
-                                        <h5>POST</h5>
-                                        <p>El método POST se utiliza para enviar una entidad aun recurso en especifico, causando a menudo un cambio en el estado o efectos secundarios en el servidor.</p>
-                                    </div>
-                                    <div>
-                                        <h5>PUT</h5>
-                                        <p>El modo PUT reemplaza todas las respresentaciones actuales del recurso de destino con la carga util de la peticion</p>
-                                    </div>
-                                    <div>
-                                        <h5>DELETE</h5>
-                                        <p>El método DELETE borra un recurso en especifico</p>
-                                    </div>
-                                    <div>
-                                        <h5>OPTIONS</h5>
-                                        <p>El método OPTIONS es utilizado para describir las opciones de comunicacion para el recurso de destino </p>
-                                    </div>
-                                    <div>
-                                        <h5>TRACE</h5>
-                                        <p>El método TRACE realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recurso de destino</p>
-                                    </div>
-                                    <div>
-                                        <h5>PATCH</h5>
-                                        <p>El método PATCH es utilizado para aplicar modificaciones parciales a un recurso.</p>
-                                    </div>
-                                    <div>
-                                        <h5>CONNECT</h5>
-                                        <p>El método CONNECT establece un tunel hacia el servidor identificado por el recurso </p>
-                                    </div>
-                                </div>
+                                </div>                                
 							</div>
+                            <div class="jason-inf">
+                                <h4>JSON</h4>
+                                <p><b>JSON</b> (acronimo de <b>JavaScript Object Notation</b>, <i>notacion de objeto de JavaScript</i>) es un formato de texto ligero para el intercambio de datos. JSON es un subconjunto de la notacion literal de objetos de JavaScript aunque hoy, debido a su amplia adopcion como alternativa a XML, se considera un formato de lenguaje independiente.</p>
+                            </div>
+                            <div>
+                                <h4>Protocolo standar SOAP</h4>
+                                <p><b>SOAP</b> (originalmente las siglas de <i>Simple Object Access Protocol</i>) es un protocolo estandar que define como dis objetos en diferentes procesos pueden comunicarse por medio de intercambio de datos XML. Es uno de los Protocolos utilizados en los <i>servicios Web</i></p>
+                                <p>El protocolo SOAP tiene tres características principales:</p>
+                                <dl>
+                                    <dt><b>Extensibilidad</b></dt>
+                                    <dd>(seguridad y WS-routing son extensiones aplicadas en el desarrollo).</dd>
+                                    <dt><b>Neutralidad</b></dt>
+                                    <dd>(bajo protocolo de transporte TCP puede ser utilizado sobre cualquier protocolo de aplicación como HTTP, SMTP o JMS).</dd>
+                                    <dt><b>Independencia</b></dt>
+                                    <dd>(permite cualquier modelo de programación).</dd>
+                                </dl>
+                                <p>Como ejemplo de cómo el modelo SOAP puede ser utilizado consideremos un mensaje SOAP que podría ser enviado a una web service para realizar la búsqueda de algún precion en una base de datos, indicando para ello los parámetros necesitados en la consulta, un ejemplo, <b>precios, localización o características. Teniendo los datos de respuesta en un formato estandarizado procesable (en inglés "parsable"), éste puede ser integrado directamente en un sitio web o aplicación externa.</b></p>
+                            </div>
 							<div>
 								<h4>TUNEL (Informática)</h4>	
 								<p>Se conoce como <b>túnel</b>  o <i>tunneling</i> a la técnica que consiste en encapsular un protocolo de red sobre otro (protocolo de red encapsulador) creando un túnel de información dentro de una red de computadoras. El uso de esta técnica persigue diferentes objetivos, dependiendo del problema que se está tratando, como por ejemplo la comunicación de islas en escenarios multicast, la redirección de tráfico, etc.</p>
@@ -172,6 +202,36 @@
                         <h5>Postman Remotamente</h5>
                         <p>Configuracion y Ejecucion de Collecciones Remotamente con URL</p>
                     </div>
+                    <table width="300">
+                        <caption><h2>Herramientas con Postman</h2></caption>
+                        <thead>
+                            <tr>
+                                <th>Herramienta</th>
+                                <th>Tutorial</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2">Jenkins</td>
+                                <td>Tutorial 1</td>
+                            </tr>
+                            <tr>
+                                <td>Tutorial 3</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">SOAP</td>
+                                <td>Tutorial 2</td>
+                            </tr>
+                            <tr>
+                                <td>Tutorial 4</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2" align="center">Aprende Sobre Postman</td>
+                            </tr>
+                        </tfoot>
+                    </table>
 				</aside>
 				<footer>
 				    <div class="overview">
