@@ -243,20 +243,50 @@
                             <br><br>
                             <label for="likes">Te gusto el Blog?</label>
                             <input type="text" id="likes" autocomplet="on" placeholder="like it?" name="texto">
+                            <br><br>
+                            <label>Que Calificacion le das a la info?</label>
+                            <select>
+                                <option value="mala">Mala</option>
+                                <option value="regular">Regular</option>
+                                <option value="buena">Buena</option>
+                                <option value="muy-buena">Muy Buena</option>
+                                <option value="excelente">Excelente</option>
+                            </select>
                         </fieldset>
                         <fieldset>
-                            <label>Selecciona tu Herramienta Faborita</label><br>
+                            <legend>Selecciona tu Herramienta Faborita</legend>
                             <input type="radio" id="herramienta" name="herramienta" value="JENKINS">JENKINS<br>
                             <input type="radio" id="herramienta" name="herramienta" value="SOAP">SOAP<br>
                             <input type="radio" id="herramienta" name="herramienta" value="Otras">Otras<br>
                         </fieldset>
                         <fieldset>
+                            <legend>Que Tipo de Peticiones as utilizado?</legend>
+                            <input type="checkbox" value="get">GET<br>
+                            <input type="checkbox" value="post">POST<br>
+                            <input type="checkbox" value="put">PUT<br>
+                            <input type="checkbox" value="patch">PATCH<br>
+                            <input type="checkbox" value="option">OPTION<br>
+                            <input type="checkbox" value="lock">LOCK<br>
+                            <input type="checkbox" value="lock">UNLOCK<br>
+                        </fieldset>
+                        <fieldset>
                             <legend>De donde nos visitas?</legend>
-                            <select class="Pais" name="pais">Selecciona tu país:
+                            <label for="pais">Pais:</label>
+                            <select class="Pais" name="pais" id="pais">Selecciona tu país:
                                 <option value="Mexico">Mexico</option>
                                 <option value="China">China</option>
                                 <option value="Francia">Francia</option>
                             </select>
+                            <br><br>
+                            <label>Ciudad</label>
+                            <input list="estado" name="region">
+                            <datalist id="estado">
+                                <option value="Sinaloa">
+                                <option value="Jalisco">
+                                <option value="Pekín">
+                                <option value="Paris">
+                            </datalist>
+                            <label></label>
                         </fieldset>
                         <br>
                         <input type="submit" value="enviar"><br><br>
