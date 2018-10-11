@@ -288,7 +288,50 @@
                             </datalist>
                             <label></label>
                         </fieldset>
+                        <fieldset>
+                            <legend>Sobre nuestra gente</legend>
+                            <label for="nombre">Cual es tu Nombre</label>
+                            <input type="text" id="nombre" name="nombre">
+                            <br><br>
+                            <label>Fecha de nacimiento</label>
+                            <input type="date" name="fehca">
+                            <br><br>
+                            <label for="correo">Correo electronico:</label>
+                            <input type="email" name="mail" placeholder="email@dominio.com" id="correo">
+                            <br><br>
+                            <label for="link">Comparte tu Link de info Favorito</label>
+                            <input type="url" name="url" placeholder="http//www.dominio.com" id="link">
+                            <br><br>
+                            <label>Elige un mes Especial para Aprender</label>
+                            <input type="month" name="mes">
+                            <br><br>
+                            <label>Cuanto sabes about Postman?</label>
+                            <input type="range" name="rango" min="0" max="10">
+                            <br><br>
+                            <label>En cuantos dias quieres Recibir info?</label>
+                            <input type="number" name="numero" min1="1" max="10">
+                            <br><br>
+                            <label>Elige tu color favorito</label>
+                            <input type="color" name="color">
+                            <br><br>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Registrate GRATIS</legend>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" placeholder="Nombre" id="nombre" required><br><br>
+                            <label for="cumple">Fecha de Nacimiento:</label>
+                            <input type="date" name="fecha"  id="cumple"><br><br>
+                            <label for="pais">Nacionalidad:</label>
+                            <input type="text" name="pais" placeholder="Pais" id="pais"><br><br>
+                            <label for="mail">Correo electronico para recuperar password:</label>
+                            <input type="email" name="correo" placeholder="email@dominio.com" id="mail" required><br><br>
+                            <label for="user">Crea un User name:</label>
+                            <input type="text" name="usuario" placeholder="Usuario" id="user" required><br><br>
+                            <label for="pass">Crea una Contraseña:</label>
+                            <input type="password" name="contraseña" placeholder="Contraseña" id="pass" required><br><br>
+                        </fieldset>
                         <br>
+                        <button type="reset" disabled>Borrar</button>
                         <input type="submit" value="enviar"><br><br>
                     </form>
 				    <div class="overview">
