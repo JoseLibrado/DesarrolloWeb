@@ -1,0 +1,77 @@
+/*---------------------- BODY ---------------------------------*/
+body {
+    background-color: white;
+    font-family:monospace;
+}
+/*---------------------- CONTENEDOR------------------------------*/
+/*---------------------- HEADER ---------------------------------*/
+header {
+    width: 1500px;
+    height: 200px;
+    background: url(../img/header.jpg),url(../img/header.jpg);
+    background-position: left, 800px;    
+    background-repeat: no-repeat;
+}
+header h1:nth-child(1) {
+    color: purple;
+    text-transform: uppercase;
+    font-size: 50px;    
+    margin-bottom: 0;
+}
+header h1:nth-child(2) {
+    color: purple;
+    text-transform: uppercase;
+    font-size: 50px;    
+    letter-spacing: 20px;
+    margin-top: 0;
+}
+/*---------------------- MAIN ---------------------------------*/
+/*---------------------- ASIDE ---------------------------------*/
+/*---------------------- FOOTER  --------------------------------*/
+/*---------------------- CLEARFIX--------------------------------*/
+/*---------------------- SECCIONES----------------------------*/
+/*---------------------- SECCION uno--------------------------*/
+.seccion-uno h1 {
+    
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}.flex div {
+    width:200px;
+    height: 200px;
+}
+.flex div:nth-child(1),
+.flex div:nth-child(3) {
+    background-color: green;
+}
+.flex div:nth-child(2),
+.flex div:nth-child(4) {
+    background-color: red;
+}
+/*---------------------- SECCION dos ------------------------*/
+.seccion-2 {
+    width: 1400px;
+    height: 500px;
+    box-shadow: 10px 10px 10px 5px red;
+}
+.seccion-2 {
+    background: url(../img/logo.jpg), url(../img/delincuencia.png);
+    background-position: 100px, right 40px;;
+    background-repeat: no-repeat;
+}
+/*---------------------- SECCION tres ------------------------*/
+/*---------------------- SECCION cuatro ----------------------*/
+/*---------------------- ELEMENTOS GENERALES---------------------*/
+h1 {
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+    text-shadow: 10px 10px 5px green;
+}
+/*---------------------- IMAGENES ---------------------*/
+/*---------------------- VIDEOS  ---------------------*/
+
+
+

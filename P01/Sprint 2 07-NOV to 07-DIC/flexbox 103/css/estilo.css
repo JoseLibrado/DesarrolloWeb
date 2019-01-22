@@ -1,0 +1,133 @@
+html {
+    min-height: 100%;
+    box-sizing: border-box;
+    font-size: 62.5% ;
+}
+* , *:before, *:after {
+    box-sizing: inherit;    
+}
+body {
+    min-height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.contenedor {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+/*------- imagen de presentacion ------*/
+.presentacion img {
+    width: 100%;
+    height: 130px;
+    margin: 0 auto;
+}
+.presentacion {
+    display: flex;
+    position: relative;
+}
+.presentacion:after {
+    content:"";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+/*---- Menu de navegacion --------*/
+
+nav {
+    height: 50px;
+    box-shadow: 0px 10px 20px gray;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.navegacion a {
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/*------------- main -----------*/
+main {
+    margin: 10px auto;;
+    padding: 2rem 2rem;
+    box-shadow: 0 10px 20px gray;
+    background-color: white;
+}
+/*-------- introduccion ---------------*/
+.introduccion {
+    text-align: justify;
+}
+.intro {
+    height: 3.5rem;
+    background-color: orange;
+    opacity: .5;
+    text-align: center;
+}
+.introduccion h3 {
+    text-transform: uppercase;
+    margin-top: 5px;
+    padding: .5rem;
+}
+/*-----------articulo 1 -------------------*/
+.titulo-uno {
+    height: 3.5rem;
+    background-color: green;
+    opacity: .5;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.titulo-uno h3 {
+    text-transform: uppercase;
+    padding: .5rem;    
+}
+article img {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+article p {
+    line-height: 2;
+    text-align: justify;
+}
+/*------------- articulo 2 -----------------*/
+.titulo-dos {
+    height: 3rem;
+    background-color: blue;
+    opacity: .5;
+    text-align: center;
+}
+.imagenes-dos {
+    display: flex;
+    justify-content: space-evenly;
+}
+/*---------- estilo footer -------------*/
+footer {
+    background-color: rgba(252, 247, 247, 0.5);
+    padding: 10px;
+    margin: 2rem auto;
+    box-shadow: 0 10px 10px gray;
+    display: flex;
+}
+footer p {
+    font-size: 1.6rem;
+}
+footer span {
+    font-size: 1.2rem;
+}
+.contenido-footer {
+    color: gray;
+    text-align: center;
+    flex: 0 0 90%;
+}
+.logo-footer img {
+    width: 110px;
+    opacity: .5;
+}

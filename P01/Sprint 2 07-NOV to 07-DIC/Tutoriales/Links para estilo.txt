@@ -1,0 +1,11 @@
+Link rel normalize.
+url:https://necolas.github.io/normalize.css/
+
+Link rel iconos:
+url:https://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=web-fonts-with-css
+
+Link hoja de estilo.
+Path.
+
+Link re google fonts
+url: https://fonts.google.com/

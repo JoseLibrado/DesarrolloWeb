@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, Helvetica, serif, "Times New Roman";
+    background-color: darkred;
+}
+/*header.cabezera {
+    background-color: gray;
+    height:40px
+}
+he
+margin: 0 auto 0 auto;ader.cabezera h1 {
+    font-family: sans-serif;
+    text-transform:uppercase;
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 30px;
+    text-decoration:line-through;
+}*/
+.contenedor {
+    background-color: black;
+    width: 1100px;
+    margin: 0 auto 0 auto;
+}
+.contenido {
+    margin-top: 140px;
+}
+h1 {
+    font-size: 30px;
+    color: white;
+    text-align:center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    
+}
+h1 {
+    background-color: black;
+    height: 25px;
+}
+header  {
+    background-color:chartreuse;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 0;
+}
+div.presentacion img{
+    border: 5px double gray;
+    width:900px!important;
+    box-sizing: border-box;
+    
+    /*padding-left: 25%;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    
+    /**Investigar como centrar imagenes*/    
+}
+.posicion {
+    width: 1500px; 
+    height: 200px;
+    position:relative;
+}
+.locator {
+    width: 900px;
+    height: 200px;
+    position: absolute;
+    right: 400px;
+    top: 20px;
+}
+.locator-s1 {
+    width: 900px;
+    height: 350px;
+    position: relative;
+}
+.img-home {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 500px;
+}
+img {
+    border: 5px double gray;
+    box-sizing: border-box;
+}
+video {
+    background-color:darkred;
+    padding:3px;
+    width: 400px!important;
+}
+p { 
+    font-family: "Times New Roman";
+    color:white;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px 10px;
+}
+.cabezera p {
+    margin: 10px 10px;
+    text-align: justify;
+}
+.habitad p {
+    margin-left: 30px;
+    text-align: justify;   
+}
+nav.menu ul{
+    list-style: none;
+}
+nav.menu ul {
+    text-align: center;
+    font-size: 20px;    
+}
+nav.menu ul li{
+    display: inline;
+}
+a {
+    text-decoration: none;
+}
+/* **Selectores con Pseudo clase **/
+nav.menu ul li a:focus,
+nav.menu ul li a:visited,
+nav.menu ul li a:active{
+    color:darkred;
+}
+ 
+nav.menu ul li a:hover{
+    color:yellow;
+}
+h2 {
+    text-transform: uppercase;
+    font-family: "Times New Roman"!important;
+    font-size: 40px;
+    color: gray;
+    letter-spacing: 10px;
+    text-decoration: line-through;
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: darkred;
+    text-decoration: line-through;
+    letter-spacing: 10px;
+}
+h2, h3 {
+    text-align: center;
+}
+h4 ,h5{
+    font-family:cursive!important;
+    color:orange;
+    font-size: 20;
+}
+h4, h5 {    
+    margin: 10px;;
+}
+footer.fondo p {
+    font-size:10px!important;
+    color: brown;
+    padding-bottom:20px;
+    background: gray;
+    padding: 10px;
+}
+table {
+    color: black;
+    font-size: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+table thead th{
+    background:gray;
+}
+table tbody tr:nth-child(even){
+    background: gray;
+}
+table tbody tr:nth-child(odd){
+    background: darkred;
+}
+div.dato p {
+    font-size: 10px!important;
+}
+/* **box-sizing: border-box** evita que cresca el elemento al agregar la propiedad de padding **
+.padding {
+    height: 100px;
+    width: 300px;
+    background-color: coral;
+    border: 20px solid cornflower;
+    padding: 20px;
+    box-sizing: border-box;
+}*/
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+main {
+    width: 800px;
+    float: left;
+    
+}
+footer {
+    border: solid 10px;
+    color: brown;
+    box-sizing: border-box;
+}
+aside {
+    width:300px;
+    border: solid 10px;
+    color:blue;
+    float: right;
+    box-sizing: border-box;
+}
+aside.barra {
+    background-color: gray;
+    width: 200px;
+}

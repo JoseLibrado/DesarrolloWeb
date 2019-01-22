@@ -1,0 +1,29 @@
+.contenedor-flex div {
+    width: 200px;
+    height: 200px;
+}
+.contenedor-flex div:nth-child(1),
+.contenedor-flex div:nth-child(7) {
+    background-color: red;
+}
+.contenedor-flex div:nth-child(2),
+.contenedor-flex div:nth-child(6) {
+    background-color: blue;
+}
+.contenedor-flex div:nth-child(3),
+.contenedor-flex div:nth-child(5) {
+    background-color: rgb(0,128,0,.4);
+}
+.contenedor-flex div:nth-child(4) {
+    background-color: yellow;
+}
+.contenedor-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+ . h1 {
+    font-size: 40px!important;
+}

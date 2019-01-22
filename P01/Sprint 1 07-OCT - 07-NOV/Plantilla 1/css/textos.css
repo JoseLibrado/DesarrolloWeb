@@ -1,0 +1,103 @@
+/*Font Face "https://www.fontsquirrel.com/"*/
+@font-face {
+    font-family: 'acknowledgementmedium';
+    src: url('acknowledgement.woff2') format('woff2'),
+         url('acknowledgement.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Font Family "Fuentes seguras"*/
+body {
+    font-family: Arial, Helvetica, serif;
+}
+header {
+    width: 100%;
+    left:0;
+    top: 10px;
+    background-color: orange;
+    position: fixed;
+}
+h2 {
+    /*font-family: Verdana, Geneva, Sans-serif;
+    font-size:30px;
+    /*font-size:3rem;
+    font-size:4em; */
+    /*font-style: italic;
+    text-transform: uppercase;
+    font-weight:bold; */
+    font: italic small-caps bold 30px/30px sans-serif;
+}
+h3 {
+    font-family: "Times New Roman", serif;
+    font-variant: small-caps;
+}
+p {
+    font-family: Geneva, Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+a {
+    font-size:14px;
+    text-decoration: none;
+}
+section#seccion-one h2{
+    text-align: center;
+}
+div.infor{
+    background-color:black;
+    color: white;
+    height:50px;
+}
+div.masion h3{
+    font-size: 20px!important;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 5px;    
+}
+section#seccion-two p{
+    text-indent: 100px;
+}
+.contenido {
+    margin-top: 150px;
+}
+.content {
+    margin: 0 auto 0 auto;
+    width: 1100px;
+}
+main {
+    background-color: red;
+    width: 800px;
+    float: left;
+}
+.imagen {
+    width: 1100px;
+    height: 300px;
+    position:relative;
+}
+.posicion {
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    right: 500px;
+}
+aside {
+    background-color: green;
+    width: 300px;
+    float: right;
+}
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.menu ul li {
+    margin: 0 10px 0 10px;
+    list-style: none;
+    float: left;
+}

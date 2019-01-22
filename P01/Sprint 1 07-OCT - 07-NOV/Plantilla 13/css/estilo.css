@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: azure;
+}
+.contenedor {
+    background-color: aqua;
+    margin: 0 100px;
+    height: 100%;
+}
+header {
+    width: 0 100px;
+    height: 60px;
+    background-color: gray;
+    position: relative; 
+}
+.falso {
+    width: 500px;
+    height: 40px;
+    background-color: blue;
+    position: absolute;
+    right: 350px;
+    top: 10px;
+}
+/*------------PRIMER NIVEL nav-----------------*/
+.navegacion nav {
+    position: relative;
+    background-color: red;
+    width: 100%;
+    margin: 30px auto;
+}
+nav ul{
+    list-style: none;
+}
+nav > ul > li {
+    float:left;
+    text-transform: uppercase;
+}
+nav ul::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+nav ul li a {
+    display: inline-block;
+    width: 290px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+}
+nav ul li a:hover {
+    background-color: white;
+}
+nav ul li a:hover{
+    color: red;
+}
+/*------------SEGUNDO NIVEL nav-----------------*/   
+nav ul ul {
+    position: absolute;
+    top: 100%;
+    background-color: purple;
+    display: none;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul li:hover {
+    background-color: purple;
+}

@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f6f8+0,f2f6f8+0,b5c6d0+48,b5c6d0+48,d8e1e7+50,e0eff9+100 */
+background: rgb(242,246,248); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 48%, rgba(181,198,208,1) 48%, rgba(216,225,231,1) 50%, rgba(224,239,249,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(242,246,248,1) 0%,rgba(181,198,208,1) 48%,rgba(181,198,208,1) 48%,rgba(216,225,231,1) 50%,rgba(224,239,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(242,246,248,1) 0%,rgba(242,246,248,1) 0%,rgba(181,198,208,1) 48%,rgba(181,198,208,1) 48%,rgba(216,225,231,1) 50%,rgba(224,239,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
+background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top:0;
+    background: rgba(227, 234, 235, 0.836);
+}
+.logotipo {
+    height: 120px;
+    text-align: center;
+}
+.logotipo img {
+    height: 110px;
+    width: 650px; 
+    margin-top:5px;
+    border: 5px solid;
+    color: black;   
+}
+.caricaturas {
+    margin-top: 150px;
+}
+/*--------------------- Titulo -----------------*/
+.caricaturas h2 {
+    text-align: center;
+}
+
+h2 span {
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 5px 10px 10px gray;
+}
+
+/*--------------------- IMAGENES estilo -----------------*/
+
+.contendio  {
+    margin: 0 50px;
+}
+.contenido ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.contenido ul li {
+    background-color: black;
+    width: 220px;
+    height: 200px;
+    margin-bottom: 10px;
+    border: 10px solid;
+    color: gold;
+}
+.contenido ul li:hover {
+    color: red;
+}
+.contenido ul li div {
+    text-align: center;
+}
+.contenido ul li div img {
+    width: 200px;
+    height: 100px;
+}
+.contenido ul li div h2 {
+    padding: 10px 0;
+    color: white;
+}
+.contenido ul li div p {
+    color: white;
+}
+.contenido ul li div p span {
+    font-size: 25px;
+    color: red;
+}
+/*----------------Menu de Temporadas/Primer nivel---------------*/
+nav {
+    background-color: pink;
+    margin: 0 100px;
+    position: relative;
+}
+nav ul {
+    list-style: none;
+}
+nav > ul > li {
+    float: left;
+    background-color: black;
+    text-align: center;
+}
+nav ul li:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+nav ul li a {
+    display: inline-block;
+    width: 220px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+/*----------------Menu de Temporadas/Segundo nivel-----------*/
+nav ul ul {
+    position: absolute;
+    background: black;
+    display: none;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul li a:hover {
+    background-color: white
+}
+nav ul li a:hover {
+    color: black;
+}

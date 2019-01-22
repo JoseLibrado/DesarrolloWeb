@@ -1,0 +1,166 @@
+/*-------------- AGREGAR SNIPET para tumbar paddins changes-------*/
+html {
+    box-sizing: border-box;
+    min-height: 100%; /*dar uniformidad al gradiente*/
+    font-size: 62.5%; /*= 10px*/
+}
+* , *:before, *:after{
+    box-sizing: inherit;
+    
+}
+body {
+    font-family: "Times New Roman";
+    font-size: 1.8rem; 
+    background-color: antiquewhite;
+}
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.navegacion {
+    width: 100%;
+    background-color: azure;
+    margin: 0 auto;
+    box-shadow: 0 5px 20px 1px white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navegacion a {
+    font-size: 2.2rem;
+    color: black;
+    text-decoration: none;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+@media (min-width:768px) {
+    .navegacion  {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+/*-------------- Estilo .hero -----------------*/
+.hero {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(../img/hero.png);
+    position: relative;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero:after {
+    content:"";
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.site-hero {
+    font-size: 2.2rem;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+.site-hero p {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+.boton {
+    text-decoration: none;
+    padding: 1rem 4rem;
+    background-color: white;
+    border-radius: 1rem;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: black;
+    box-shadow: 0 5px 1px gray;
+}
+/*----------------- CONTENEDOR .contenedor ------------*/
+.contenedor {
+    width: 1200px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 5px 5px black;
+}
+.servicios {
+    margin: 3rem auto;
+    text-align: justify;
+}
+.servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width:768px) {
+        .contenido-servicios {
+            display: flex;
+            justify-content: space-between;
+        }
+        .servicios {
+            flex: 0 0 calc(33.3% - 1.5rem);
+        }
+}
+/*-------------------- .iconos ------------------------------*/
+.icono {
+    width: 6rem;
+    height: 6rem;
+    background-color: gray;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icono h4 {
+    color:white;
+}
+/*--------------- FORMULARIO .formulario ---------------------*/
+form {
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: gray;
+    border-radius: 2rem;
+}
+legend {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    form {
+        max-width: 800px;
+        margin: 1rem auto;
+    }
+    .contenedor-campos {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .campo {
+        flex: 0 0 calc(50% - 1rem);
+    }
+}
+.campo {
+   display: flex;
+   margin-bottom: 2rem;
+}
+.campo label {
+    flex: 0 0 90px;
+    padding-top: 1.6rem;
+}

@@ -1,0 +1,149 @@
+/* selecctores "elemento"*/
+h1{
+    color:forestgreen;
+    background: orange;
+    padding: 2px;
+    }   
+
+/* Selectores por "id's"*/
+#seccion-one{
+    color:white;
+    background: blue;
+    padding: 10px;
+    }  
+
+/* selectores por "clases"*/
+.formulario{
+            color:white;
+            background: red;
+            padding: 1px;
+            }   
+
+/*Selectores por id's y clases*/
+
+#logotipo.logotipo{
+    font-size:30px;
+}
+/*Selector con 2 clases*/
+.infor.masion{
+    color:red;
+}
+
+/*Selector de Elementos HTML*/
+/*p{
+    color:brown;
+}
+h2{
+    color:green;
+}   */
+h3{
+    color:yellowgreen;
+}
+img{
+    width:300px;
+}
+
+/*Selector de Elementos HTML y ID´s*/
+
+img#logo{
+    width:900px;
+}
+img#imagen-logo{
+    width:250;
+}
+
+/*Selector de Elementos HTML y clases*/
+
+section.section{
+    background:gray;
+}
+div.video{
+    background:yellow;
+}
+
+/* Selector Universal */
+/*
+*{
+    color:purple!important;
+    font-size:10px!important;
+}   */
+
+.one *{
+    color:white;
+    font-size;50px!important;
+}
+
+/* Selector de grupos*/
+h1, h2, h3, h4{
+    text-align: center;
+}
+
+/* Selector descendiente*/
+
+nav.menu{
+    background:black;
+}
+nav.menu ul{
+    list-style:none;
+}
+nav.menu ul li{
+    display: inline;
+}
+nav.menu ul li a{
+    color:white;
+}
+
+/* Selector con hijos*/
+section#seccion-one > p {
+    color:black;
+    border: 1px solid white;
+}
+div.tabla table tabla > caption {
+    color:green;
+}
+
+/* Selector con elementos Adyacentes*/
+div#aside + div{
+    color: white;
+    background: red;
+}
+
+/* Selector para enlaces*/
+a[href*="google.com"]{
+    background:white;
+    color:black!important;
+}
+
+/* Selectores por atributo*/
+section[class="section"]{
+    background:red;
+}
+
+/* Selectores con Pseudo clases*/
+
+nav.menu2 ul li a:focus,
+nav.menu2 ul li a:visited,
+nav.menu2 ul li a:active{
+    color:black;
+}
+ 
+nav.menu2 ul li a:hover{
+    background-color:yellow;
+}
+
+/*Selectores con Pseudo clases y NTH-CHILD*/
+nav.menu2 ul li:nth-child(1){
+    background-color:aqua;
+}
+nav.menu2 ul li:nth-child(2){
+    background-color:yellow;
+}
+nav.menu2 ul li:nth-child(5){
+    background-color:green;
+}
+table tbody tr:nth-child(odd){
+    background-color: gray;
+}
+table tbody tr:nth-child(even){
+    background-color:purple;
+}

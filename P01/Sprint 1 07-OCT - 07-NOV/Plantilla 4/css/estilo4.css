@@ -1,0 +1,66 @@
+body {
+    font-family:cursive;
+    background-color:chartreuse;
+}
+header {
+    background: rgba(244,32,11, .6);
+    border: 10px solid;
+    color: rgb (244,32,11);
+    width: 100%;
+    height:130px;
+    top: 10px;
+    position: fixed;    
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.contenedor {
+    width: 1000px;
+    margin: 150px auto 0 auto;
+}
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+main {
+    background-color:darkgreen;
+    width: 700px;
+    float: left;
+}
+.menu ol li{
+    float: left;
+    margin: 0 20px;
+}
+.menu ol li a:focus,
+.menu ol li a:active,
+.menu ol li a:visited {
+    color: red;
+}
+.menu ol li a:hover {
+    color: orange;
+}
+aside {
+    background-color: red;
+    width: 300px;
+    float: right;
+}
+footer {
+    background-color:black;
+    color: white;
+}
+
+footer h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+footer p {
+    text-align: center;
+    padding: 0 auto 10px auto; 
+}
