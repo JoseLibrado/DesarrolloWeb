@@ -1,0 +1,192 @@
+body {
+    font-family: "Times New Roman";
+}
+
+/*-------HEADER ------- */
+
+header {
+    top: 0;
+    background-color: orange;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 30px;
+    color: red;
+    text-transform: uppercase;
+}
+header ul {
+    list-style: none;
+}
+header ul li {
+    margin: 20px;
+    float: right;
+}
+/* ---------- ELEMENTOS h1, h2, h3, h4, p, a---------------*/
+
+h1 {
+    color:darkred;
+    font-size: 70px;
+    text-align: center;
+}
+h2 {
+    color: orange;
+    font-size: 50px;
+    text-align: center;
+}
+h3 { 
+    color: darkred;
+    font-size: 40px;
+    text-align: center;
+}
+h4 {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+h5 {
+    color: darkblue;
+    font-size: 20px;
+    text-align: center;
+}
+p {
+    margin: 10px;
+    text-align: justify;
+    color: darkslateblue;
+}
+a:focus,
+a:active,
+a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
+}
+/*----------- .contenedor ------------------*/
+
+.contenido-principal {
+    margin: 150px auto 0 auto;
+    width: 1300px;
+}
+/* ----------------- MAIN ----------------------------*/
+
+main {
+    background-color: yellow;
+    width: 1000px;
+    float: left;
+}
+/* ----------------- ASIDE ----------------------------*/
+
+aside {
+    background-color: orangered;
+    width: 300px;
+    float: right;
+}
+table {
+    margin: 0 auto 0 auto;
+    table-layout: fixed;
+}
+aside table {
+    border: solid 1px;
+}
+/* ----------------- FOOTER --------------------------*/
+
+footer {
+    background-color: gray;
+    width: 100%;
+    float: left;
+}
+footer h2{
+    line-height: 5px;
+    font-size: 20px;
+    text-align: center
+}
+footer h3{
+    line-height: 5px;
+    font-size: 20px;
+    text-align: center
+}
+footer h4{
+    line-height: 5px;
+    font-size: 20px;
+    text-align: center
+}
+footer ul {
+    background-color: transparent;
+    padding-bottom: 30px;
+    margin-left: 250px;
+}
+footer ul li {
+    margin-left: 50px;
+    float:left;
+}footer p {
+    text-align: center;
+}
+/* --------- SECCIONES-SECCIONES-SECCIONES-SECCIONES-SECCIONES-SECCIONES-SECCIONES-SECCIONES-SECCIONES-SECCIONES -------------*/
+
+/* <<<------- SECCION .Postman --------->>>>*/
+/* <<<------- SECCION .Variables --------->>>>*/
+/* <<<------- SECCION .Tutoriales --------->>>>*/
+
+#Tutoriales ul {
+    font-size: 20px;
+    text-align: center;
+}
+#Tutoriales ul li{
+    letter-spacing: 3px;
+    list-style: none;    
+}
+.request a {
+    background-color: red;
+    color: white;
+    margin-left: 400px;
+    padding: 30px;
+}
+
+/* <<<------- SECCION .Conclusion --------->>>>*/
+/* <<<------- SECCION .Apendice --------->>>>*/
+
+.api p {
+    margin-bottom: 40px;
+}
+.api a {
+    background-color: red;
+    color: white;
+    margin-left: 400px;
+    padding: 30px;
+}
+.table {
+    width: 700px;
+    margin: 0 auto 0 auto;
+    color: darkblue;
+}
+.table table caption h2{
+    font-size: 30px;
+    color: red!important;
+}
+.table table tr:nth-child(odd){
+    background-color: orangered;
+}
+/* ------------- MEDIA Y MULTIMEDIA :IMAGENES, VIDEOS, ETC ----------*/
+
+.Logotipo {
+    margin-left: 300px;
+}
+.youtube img { 
+    color: red;
+    margin-left: 450px;
+    border: double 5px;
+}
+
+/* --------- CLEARFIX -------------*/
+
+.clearfix:before,
+.clearfix:after {
+    content="";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}

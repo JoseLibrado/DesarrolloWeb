@@ -1,0 +1,49 @@
+------------------------------------------------------------------------------
+
+----------------- CAMBIOS PARA EL CUERPO--------------------------------------
+
+body: agregar font-family para unificar la fuente. (CHECK)
+
+Title:	Centrado, algun color, uppercase, position fixed, ancho 100%, altura considerable, (CHECK)
+
+Logo img: remover y mandarla al main (CHECK)
+
+Menu: Maniobrar con el titulo "Contenidod e la pagina" aplicarle un float para alinearlo, limpiar los bullets, 
+	agregar propiedad de visitado, hover y demas.UNIRLO AL TITLE. (CHECK)
+
+contenedor: background-color- yellow, ancho de 1100px. (CHECK)
+
+main: ancho de 700px. y talvez agregar un background-color.
+
+seccion1 Postman: 1 titulo h3 y 2 parrafos 
+seccion2 variables: 1 titulo h3 y 2 parrafos
+seccion3 tutoriales: h3, h4, h1, ul, enlaces, h5  
+seccion4 conclusion: h3, p
+seccion5 Apendice: h3, h4, p, enlaces, ul, table
+
+footer: agregar algun backgroun-color,
+
+-------------- CAMBIOS GENERALES PARA LOS ELEMENTOS ------------------------------------ (CHECK)
+
+h1: tamaño considerable, color: Orange
+h2: todos con bacground-color: orange y font-size de tamaño considerable, color gray.
+h3: ""	""	""	""	"" 	""	, colo: white, 
+h4: backgroun-color, color: darkred, centrado.
+p: aplicar un margin-left o centrar el texto lo mas posible, color: darkblue;
+a: propiedades focus, visited, active, hover de color orange, font color:black.
+
+------------------------ OBSERVACIONES -------------------------------------------------- 
+NOTA: acomodar la estructura para poder aplicar el estilo.css
+
+-header: unir title y menu. aplicar bakcground-color: orange talvez. (CHECK)
+-class="contenid-principal" mover antes del main y el cierre despues del aside (CHECK)
+
+---------------------- DAR FORMA AL DISEÑO DE LA PAGINA -------------------------------
+-Mandar a la izquierda al todo el main (CHECK)
+- Mandar a la derecha al aside (CHECK)
+- dar un formato x al footer. (CHECK)
+
+------ FORMATO A TABLAS Y ASIDE -------------------------
+-agregar un formato de vista las tablas.
+- detallar el aside para mejor presentacion.
+- 

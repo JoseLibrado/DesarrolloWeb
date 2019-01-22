@@ -4,17 +4,15 @@
 		<head>
 			<meta charset="utf-8">
 			<title>Postman Summary</title>
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/Estilo.css">
 		</head>
 		<body>
 			<div class="Contenedor">
 				<header>
 					<h1>POSTMAN iNVESTIGACION</h1>
-					<div class="Logtipo">
-						<img src="img/logotipo.png" height="175" width="500" alt="Postman Logo">
-					</div>
 					<nav class="menu">
-						<h2>Contenido de la pagina</h2>
-						<ul>
+						<ul class="clearfix">
 							<li><a href="#Postman">Postman 6.3.0</a></li>
 							<li><a href="#Variables">Variables de Entorno</a></li>
 							<li><a href="#Tutoriales">Sobre Tutoriales</a></li>
@@ -23,183 +21,185 @@
 						</ul>
 					</nav>
 				</header>
-				<main>
-					<div class="Contenido-principal">
-						<section id="Postman">
-							<h3>Postman 6.3.0</h3>
-							<div>
-								<p>Se trata de una herramienta dirigida a desarrolladores web que permite realizar peticiones HTTP a cualquier API. Postman es muy útil a la hora de programar y hacer pruebas, puesto que nos ofrece la posibilidad de comprobar el correcto funcionamiento de nuestros desarrolladores.  </p>
-								<p>Es muy útil para todo aquel que tenga que interactuar con una API.
-								Postman nos ofrece un conjunto de funcionalidades que nos ayudaran a organizar las peticiones en colecciones, hacer y automatizar pruebas, mantener equipos sincronizados y crear Mocks de APIs </p>
-							</div>
-						</section>
-						<section id="Variables">
-							<h3>Variables de Entorno</h3>
-							<div>
-								<p>Como en todos los lenguajes de programación, las variables son símbolos que guardan valores y para esto mismo sirven en Postman.  Aunque a prior puede parecerte que no tiene mucho sentido para una herramienta así, lo cierto es que esto aumenta su potencial enormemente.</p>
-								<p>El uso de variables nos ayudan a la realización de pruebas, al cambio entre distintos entornos (entorno de desarrollo, pruebas, producción, etc) y en general, nos ayudan a recordar y evitar escribir el mismo texto o ruta de forma repetitiva.</p>
-							</div>
-						</section>
-						<section id="Tutoriales">
-							<h3>SOBRE TUTORIALES</h3>
-							<div>
-								<h4>PUEDES ENCONTRAR TUTORIALES EN</h4>
-								<img src="img/youtube.png" height="120" width="160" alt="Youtube">
-								<h1>Postman Beginner Tutorial</h1>
-							</div>
-                            <div>
-                                <h5>Temario para principiantes:</h5>
-                                <ul>
-                                    <li>1.Introduccion-Que es Postman?</li>
-                                    <li>2.Aprendiento la Interface de Usiario</li>
-                                    <li>3.Como Crear la Primera API Request</li>
-                                    <li>4.Que es una Coleccion | Como creala?</li>
-                                    <li>5.Como Ejecutar una Coleccion?</li>
-                                    <li>6.Variables - Como crear variables y asignar</li>
-                                    <li>7.Como establecer y agregar Variables Scriptiando</li>
-                                    <li>8.Como crear Ambientes</li>
-                                    <li>9.Como crear Quick Scripts</li>
-                                    <li><a href="https://www.youtube.com/watch?v=N_mEuR-aGEY&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=10" target="_blank">10.Como crear mi Primer Prueba</a></li>
-                                    <li>11.Como Depurar</li>
-                                    <li>12.Como Ejecutar desde el Comando de Lineas</li>
-                                    <li>13.Como Ejecutar desde Jenkis</li>
-                                    <li><a href="https://www.youtube.com/watch?v=VBJ8Fp775Ss&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=14" target="_blank">14.Como crear y administrar WORKSPACES</a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=BzHsDihOlfY&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=15" target="_blank">15.Conduccion de datos (Data Driven) | Como datos de archivos CSV,JSON</a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=IoCXSpa3ou8&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=16" target="_blank">16.Ejecutar Colecciones remotamente con URL</a> </li>
-                                    <li>17.Como ejecutar SOAP Request</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h5>Pagina de platilla para obtener Request de ejemplo</h5>
-                                <a href="https://reqres.in/" target="_blank">Request Samples Page</a>
-                            </div>
-						</section>
-						<section id="Conclusion">
-							<h3>Conclusion Personal</h3>
-							<p>Postman es un software donde puedes generar peticiones (request), por medio de los métodos obtienes una respuesta, esta respuesta la puedes convertir a algún formato específico con un recuadro de opciones. Se pueden hacer ejecuciones de las request con el icono de ejecucion,tambien puedes observar la consola de ejecucion habilitando la ventana en <i>view/Show sPostman Console</i></p>
-						</section>
-						<section id="Apendice">
-							<h3>Apendice</h3>
-							<div>
-								<h4>API</h4>
-								<p>Una API es un conjunto de funciones y procedimientos que cumplen una o muchas funciones con el fin de ser utilizadas por otro software. Las siglas API vienen del ingles <i>Application Programming Interface</i>. En español sería <b>Interfaz de Programación de Aplicaciones</b>.</p>
-								<p>Una API nos permite implementar las funcones y procedimientos que engloban en nuestro proyecto sin la necesidad de programar de nuevo. En términos de programación, es una carpa de abstracción. </p>
-								<p>Por ejemplo, digamos que estas desarrollando una aplicación web y necesitas hacer peticiones HTTP. En lugar de desarrollar todo el código para hacer una petición HTTP, puedes utilizar una API que se encargue de esto, como por ejemplo Request de Python. Si necesitas utilizar archivos .yaml, puedes usar la API Yaml de Ruby.</p>
-								<p>Ahora, el termino API ha evolucionado un poco con la revolución de los servicios web que dieron lugar lo que hoy se conoce como API REST, o como muchos suelen llamarla, solo API.</p>
-							</div>
-							<div>
-								<h4>API REST</h4>	
-								<p>Una API REST es una biblioteca apoyada totalmente en el estándar HTTP. Visto de una forma más sencilla, una API REST es un servicio que nos provee de funciones que nos dan la capacidad de <b>hacer uso de un servicio web que no es nuestro, dentro de una aplicación propia</b>, de manera segura.</p>	
-								<a href="https://hipertextual.com/archivo/2014/05/que-es-api/" target="_blank">Link de información:</a>
-							</div>
-							<div>
-								<h4>Mocks de APIs</h4>
-								<p>Son los objetos programados con expectativa que conforman la especificación de lo que se espera que reciban las llamadas, es decir, son objetos que se usan para probar que se realizan correctamente llamadas a otros métodos, por ejemplo, una web API, por lo que se utilizan para verificar el comportamiento de los objetos.</p>
-							</div>
-							<div>
-								<h4>Colecciones</h4>
-								<p>Postman nos ofrece la posibilidad de <b>guardar y agrupar conjuntos de solicitudes</b> en lo que ellos denominan “Colections”. Es decir simples carpetas en distintos niveles que organizaran nuestras  peticiones HTTP.</p>
-							</div>
-							<div class="peticiones-info" id="pet-info">
-								<h4>Peticiones HTTP</h4>
-								<p>HTTP contiene un grupo de peticiones HTTP (también llamadas HTTP verbs por, el tipo de nombre que manejan casi todos ellos, algunos son sustantivos) que nos ayudan a especificar la acción que se requiere realizar en un elemento determinado y aunque estas peticiones tienen distintas semánticas, también tienen muchas similitudes en las mismas que evitan que este grupo se extienda demasiado.</p>
-								<p>Estas peticiones las podemos clasificar en Safe e Idempotent  </p>
-								<ul><li><i>PETICIONES HTTP SAFE</i></li></ul>
-								<p>Un método HTTP es considerado Safe o seguro si no altera el estado del servidor. En otras palabras, un método es seguro si conduce a una operación de “solo lectura”. Algunos de los métodos HTTP más comunes son seguros: OPTIONS, GET O HEAD. Todos los métodos seguros son también a su vez idempotente (así como también algunos, pero no todos, los métodos inseguros como DELETE o PUT).</p>
-								<ul><li><i>PETICIONES HTTP IDEMPOTENT</i></li></ul>	
-								<p>Así como un objeto cualquiera tiene la propiedad de idempotencia si al realizar una operación muchas veces da el mismo resultado cual si se hubiese realizado la operación una sola vez, un método HTTP es idempotente si una solicitud idéntica puede realizarse una o demasiadas veces consecutivamente obteniendo el mismo resultado dejando al servidor en el mismo estado. </p>
-								<p>En la vida y en los números reales, podríamos llamar al 1 y al 0 como los únicos idempotentes para la operación de multiplicación, pues estos números al multiplicarse en muchas ocasiones, da como resultado el mismo (1^n =1). Volviendo a HTTP, los métodos que (implementados correctamente) son idempotentes son el GET, HEAD, PUT y DELETE y como lo explicamos en los métodos Safe, todos estos últimos son idempotentes. </p>
-                                <div class="Peticiones-work" id="pet-work">
-                                    <div>
-                                        <table width="600">
-                                            <caption><h2>Tarea desempeñada por la Peticion</h2></caption>
-                                            <thead>
-                                                <tr>
-                                                    <th>PETICION</th>
-                                                    <th>FUNCION</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>GET</td>
-                                                    <td>El metodo GET solocita una respresentacion de un recurso especifico. <b>Las peticiones que usan el metodo GET deben recuperar datos</b>.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>GET</td>
-                                                    <td>El metodo GET solocita una respresentacion de un recurso especifico. <b>Las peticiones que usan el metodo GET deben recuperar datos</b>.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>HEAD</td>
-                                                    <td>El método HEAD pide una respuesta identica a la de una peticion GET, pero sin el cuerpo de la respuesta.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>PUT</td>
-                                                    <td>El modo PUT reemplaza todas las respresentaciones actuales del recurso de destino con la carga util de la peticion.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>DELETE</td>
-                                                    <td>El método DELETE borra un recurso en especifico.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>OPTIONS</td>
-                                                    <td>El método OPTIONS es utilizado para describir las opciones de comunicacion para el recurso de destino.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>TRACE</td>
-                                                    <td>El método TRACE realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recurso de destino</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>PATCH</td>
-                                                    <td>l método PATCH es utilizado para aplicar modificaciones parciales a un recurso.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>CONNECT</td>
-                                                    <td>El método CONNECT establece un tunel hacia el servidor identificado por el recurso.</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>                                
-							</div>
-                            <div class="jason-inf">
-                                <h4>JSON</h4>
-                                <p><b>JSON</b> (acronimo de <b>JavaScript Object Notation</b>, <i>notacion de objeto de JavaScript</i>) es un formato de texto ligero para el intercambio de datos. JSON es un subconjunto de la notacion literal de objetos de JavaScript aunque hoy, debido a su amplia adopcion como alternativa a XML, se considera un formato de lenguaje independiente.</p>
-                            </div>
-                            <div>
-                                <h4>Protocolo standar SOAP</h4>
-                                <p><b>SOAP</b> (originalmente las siglas de <i>Simple Object Access Protocol</i>) es un protocolo estandar que define como dis objetos en diferentes procesos pueden comunicarse por medio de intercambio de datos XML. Es uno de los Protocolos utilizados en los <i>servicios Web</i></p>
-                                <p>El protocolo SOAP tiene tres características principales:</p>
-                                <dl>
-                                    <dt><b>Extensibilidad</b></dt>
-                                    <dd>(seguridad y WS-routing son extensiones aplicadas en el desarrollo).</dd>
-                                    <dt><b>Neutralidad</b></dt>
-                                    <dd>(bajo protocolo de transporte TCP puede ser utilizado sobre cualquier protocolo de aplicación como HTTP, SMTP o JMS).</dd>
-                                    <dt><b>Independencia</b></dt>
-                                    <dd>(permite cualquier modelo de programación).</dd>
-                                </dl>
-                                <p>Como ejemplo de cómo el modelo SOAP puede ser utilizado consideremos un mensaje SOAP que podría ser enviado a una web service para realizar la búsqueda de algún precion en una base de datos, indicando para ello los parámetros necesitados en la consulta, un ejemplo, <b>precios, localización o características. Teniendo los datos de respuesta en un formato estandarizado procesable (en inglés "parsable"), éste puede ser integrado directamente en un sitio web o aplicación externa.</b></p>
-                            </div>
-							<div>
-								<h4>TUNEL (Informática)</h4>	
-								<p>Se conoce como <b>túnel</b>  o <i>tunneling</i> a la técnica que consiste en encapsular un protocolo de red sobre otro (protocolo de red encapsulador) creando un túnel de información dentro de una red de computadoras. El uso de esta técnica persigue diferentes objetivos, dependiendo del problema que se está tratando, como por ejemplo la comunicación de islas en escenarios multicast, la redirección de tráfico, etc.</p>
-								<p>La técnica de <b>tunelizar</b>  se suele utilizar para transportar un protocolo determinado a través de una red que, en condiciones normales, no lo aceptaría. Otro uso de la tunelizacion de protocolos es la creación de diversos tipos de redes privadas y virtuales.</p>
-								<p>Uno de los ejemplos más claros de utilización de esta técnica consiste en la redirección de tráfico en escenarios IP Móvil.</p>
-							</div>							
-						</section>						
-					</div>
-				</main>
-				<aside>
-					<h3>Postan y otras Herramientas</h3>
+                <div class="contenido-principal clearfix"> <!--mover -->
+                    <main>
+                        <div class="Logotipo">
+                            <img src="img/logotipo.png" height="175" width="500" alt="Postman Logo">
+                        </div>
+                            <section id="Postman">
+                                <h3>Postman 6.3.0</h3>
+                                <div>
+                                    <p>Se trata de una herramienta dirigida a desarrolladores web que permite realizar peticiones HTTP a cualquier API. Postman es muy útil a la hora de programar y hacer pruebas, puesto que nos ofrece la posibilidad de comprobar el correcto funcionamiento de nuestros desarrolladores.  </p>
+                                    <p>Es muy útil para todo aquel que tenga que interactuar con una API.
+                                    Postman nos ofrece un conjunto de funcionalidades que nos ayudaran a organizar las peticiones en colecciones, hacer y automatizar pruebas, mantener equipos sincronizados y crear Mocks de APIs </p>
+                                </div>
+                            </section>
+                            <section id="Variables">
+                                <h3>Variables de Entorno</h3>
+                                <div>
+                                    <p>Como en todos los lenguajes de programación, las variables son símbolos que guardan valores y para esto mismo sirven en Postman.  Aunque a prior puede parecerte que no tiene mucho sentido para una herramienta así, lo cierto es que esto aumenta su potencial enormemente.</p>
+                                    <p>El uso de variables nos ayudan a la realización de pruebas, al cambio entre distintos entornos (entorno de desarrollo, pruebas, producción, etc) y en general, nos ayudan a recordar y evitar escribir el mismo texto o ruta de forma repetitiva.</p>
+                                </div>
+                            </section>
+                            <section id="Tutoriales">
+                                <h3>SOBRE TUTORIALES</h3>
+                                <div class="youtube">
+                                    <h4>PUEDES ENCONTRAR TUTORIALES EN</h4>
+                                    <img src="img/youtube.png" height="120" width="160" alt="Youtube">
+                                    <h1>Postman Beginner Tutorial</h1>
+                                </div>
+                                <div>
+                                    <h5>Temario para principiantes:</h5>
+                                    <ul>
+                                        <li>1.Introduccion-Que es Postman?</li>
+                                        <li>2.Aprendiento la Interface de Usiario</li>
+                                        <li>3.Como Crear la Primera API Request</li>
+                                        <li>4.Que es una Coleccion | Como creala?</li>
+                                        <li>5.Como Ejecutar una Coleccion?</li>
+                                        <li>6.Variables - Como crear variables y asignar</li>
+                                        <li>7.Como establecer y agregar Variables Scriptiando</li>
+                                        <li>8.Como crear Ambientes</li>
+                                        <li>9.Como crear Quick Scripts</li>
+                                        <li><a href="https://www.youtube.com/watch?v=N_mEuR-aGEY&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=10" target="_blank">10.Como crear mi Primer Prueba</a></li>
+                                        <li>11.Como Depurar</li>
+                                        <li>12.Como Ejecutar desde el Comando de Lineas</li>
+                                        <li>13.Como Ejecutar desde Jenkis</li>
+                                        <li><a href="https://www.youtube.com/watch?v=VBJ8Fp775Ss&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=14" target="_blank">14.Como crear y administrar WORKSPACES</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=BzHsDihOlfY&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=15" target="_blank">15.Conduccion de datos (Data Driven) | Como datos de archivos CSV,JSON</a></li>
+                                        <li><a href="https://www.youtube.com/watch?v=IoCXSpa3ou8&list=PLhW3qG5bs-L-oT0GenwPLcJAPD_SiFK3C&index=16" target="_blank">16.Ejecutar Colecciones remotamente con URL</a> </li>
+                                        <li>17.Como ejecutar SOAP Request</li>
+                                    </ul>
+                                </div>
+                                <div class="request">
+                                    <h5>"Pagina de platilla para obtener Request de ejemplo"</h5>
+                                    <a href="https://reqres.in/" target="_blank">Request Samples Page</a>
+                                </div>
+                            </section>
+                            <section id="Conclusion">
+                                <h3>Conclusion Personal</h3>
+                                <p>Postman es un software donde puedes generar peticiones (request), por medio de los métodos obtienes una respuesta, esta respuesta la puedes convertir a algún formato específico con un recuadro de opciones. Se pueden hacer ejecuciones de las request con el icono de ejecucion,tambien puedes observar la consola de ejecucion habilitando la ventana en <i>view/Show sPostman Console</i></p>
+                            </section>
+                            <section id="Apendice">
+                                <h3>Apendice</h3>
+                                <div>
+                                    <h4>API</h4>
+                                    <p>Una API es un conjunto de funciones y procedimientos que cumplen una o muchas funciones con el fin de ser utilizadas por otro software. Las siglas API vienen del ingles <i>Application Programming Interface</i>. En español sería <b>Interfaz de Programación de Aplicaciones</b>.</p>
+                                    <p>Una API nos permite implementar las funcones y procedimientos que engloban en nuestro proyecto sin la necesidad de programar de nuevo. En términos de programación, es una carpa de abstracción. </p>
+                                    <p>Por ejemplo, digamos que estas desarrollando una aplicación web y necesitas hacer peticiones HTTP. En lugar de desarrollar todo el código para hacer una petición HTTP, puedes utilizar una API que se encargue de esto, como por ejemplo Request de Python. Si necesitas utilizar archivos .yaml, puedes usar la API Yaml de Ruby.</p>
+                                    <p>Ahora, el termino API ha evolucionado un poco con la revolución de los servicios web que dieron lugar lo que hoy se conoce como API REST, o como muchos suelen llamarla, solo API.</p>
+                                </div>
+                                <div class="api">
+                                    <h4>API REST</h4>	
+                                    <p>Una API REST es una biblioteca apoyada totalmente en el estándar HTTP. Visto de una forma más sencilla, una API REST es un servicio que nos provee de funciones que nos dan la capacidad de <b>hacer uso de un servicio web que no es nuestro, dentro de una aplicación propia</b>, de manera segura.</p>	
+                                    <a href="https://hipertextual.com/archivo/2014/05/que-es-api/" target="_blank">Link de información:</a>
+                                </div>
+                                <div>
+                                    <h4>Mocks de APIs</h4>
+                                    <p>Son los objetos programados con expectativa que conforman la especificación de lo que se espera que reciban las llamadas, es decir, son objetos que se usan para probar que se realizan correctamente llamadas a otros métodos, por ejemplo, una web API, por lo que se utilizan para verificar el comportamiento de los objetos.</p>
+                                </div>
+                                <div>
+                                    <h4>Colecciones</h4>
+                                    <p>Postman nos ofrece la posibilidad de <b>guardar y agrupar conjuntos de solicitudes</b> en lo que ellos denominan “Colections”. Es decir simples carpetas en distintos niveles que organizaran nuestras  peticiones HTTP.</p>
+                                </div>
+                                <div class="peticiones-info" id="pet-info">
+                                    <h4>Peticiones HTTP</h4>
+                                    <p>HTTP contiene un grupo de peticiones HTTP (también llamadas HTTP verbs por, el tipo de nombre que manejan casi todos ellos, algunos son sustantivos) que nos ayudan a especificar la acción que se requiere realizar en un elemento determinado y aunque estas peticiones tienen distintas semánticas, también tienen muchas similitudes en las mismas que evitan que este grupo se extienda demasiado.</p>
+                                    <p>Estas peticiones las podemos clasificar en Safe e Idempotent  </p>
+                                    <ul><li><i>PETICIONES HTTP SAFE</i></li></ul>
+                                    <p>Un método HTTP es considerado Safe o seguro si no altera el estado del servidor. En otras palabras, un método es seguro si conduce a una operación de “solo lectura”. Algunos de los métodos HTTP más comunes son seguros: OPTIONS, GET O HEAD. Todos los métodos seguros son también a su vez idempotente (así como también algunos, pero no todos, los métodos inseguros como DELETE o PUT).</p>
+                                    <ul><li><i>PETICIONES HTTP IDEMPOTENT</i></li></ul>	
+                                    <p>Así como un objeto cualquiera tiene la propiedad de idempotencia si al realizar una operación muchas veces da el mismo resultado cual si se hubiese realizado la operación una sola vez, un método HTTP es idempotente si una solicitud idéntica puede realizarse una o demasiadas veces consecutivamente obteniendo el mismo resultado dejando al servidor en el mismo estado. </p>
+                                    <p>En la vida y en los números reales, podríamos llamar al 1 y al 0 como los únicos idempotentes para la operación de multiplicación, pues estos números al multiplicarse en muchas ocasiones, da como resultado el mismo (1^n =1). Volviendo a HTTP, los métodos que (implementados correctamente) son idempotentes son el GET, HEAD, PUT y DELETE y como lo explicamos en los métodos Safe, todos estos últimos son idempotentes. </p>
+                                    <div class="Peticiones-work" id="pet-work">
+                                        <div class="table">
+                                            <table id="tarea">
+                                                <caption><h2>Tarea desempeñada por la Peticion</h2></caption>
+                                                <thead>
+                                                    <tr>
+                                                        <th>PETICION</th>
+                                                        <th>FUNCION</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>GET</td>
+                                                        <td>El metodo GET solocita una respresentacion de un recurso especifico. <b>Las peticiones que usan el metodo GET deben recuperar datos</b>.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>GET</td>
+                                                        <td>El metodo GET solocita una respresentacion de un recurso especifico. <b>Las peticiones que usan el metodo GET deben recuperar datos</b>.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>HEAD</td>
+                                                        <td>El método HEAD pide una respuesta identica a la de una peticion GET, pero sin el cuerpo de la respuesta.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>PUT</td>
+                                                        <td>El modo PUT reemplaza todas las respresentaciones actuales del recurso de destino con la carga util de la peticion.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>DELETE</td>
+                                                        <td>El método DELETE borra un recurso en especifico.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>OPTIONS</td>
+                                                        <td>El método OPTIONS es utilizado para describir las opciones de comunicacion para el recurso de destino.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>TRACE</td>
+                                                        <td>El método TRACE realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recurso de destino</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>PATCH</td>
+                                                        <td>l método PATCH es utilizado para aplicar modificaciones parciales a un recurso.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>CONNECT</td>
+                                                        <td>El método CONNECT establece un tunel hacia el servidor identificado por el recurso.</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>                                
+                                </div>
+                                <div class="jason-inf">
+                                    <h4>JSON</h4>
+                                    <p><b>JSON</b> (acronimo de <b>JavaScript Object Notation</b>, <i>notacion de objeto de JavaScript</i>) es un formato de texto ligero para el intercambio de datos. JSON es un subconjunto de la notacion literal de objetos de JavaScript aunque hoy, debido a su amplia adopcion como alternativa a XML, se considera un formato de lenguaje independiente.</p>
+                                </div>
+                                <div>
+                                    <h4>Protocolo standar SOAP</h4>
+                                    <p><b>SOAP</b> (originalmente las siglas de <i>Simple Object Access Protocol</i>) es un protocolo estandar que define como dis objetos en diferentes procesos pueden comunicarse por medio de intercambio de datos XML. Es uno de los Protocolos utilizados en los <i>servicios Web</i></p>
+                                    <p>El protocolo SOAP tiene tres características principales:</p>
+                                    <dl>
+                                        <dt><b>Extensibilidad</b></dt>
+                                        <dd>(seguridad y WS-routing son extensiones aplicadas en el desarrollo).</dd>
+                                        <dt><b>Neutralidad</b></dt>
+                                        <dd>(bajo protocolo de transporte TCP puede ser utilizado sobre cualquier protocolo de aplicación como HTTP, SMTP o JMS).</dd>
+                                        <dt><b>Independencia</b></dt>
+                                        <dd>(permite cualquier modelo de programación).</dd>
+                                    </dl>
+                                    <p>Como ejemplo de cómo el modelo SOAP puede ser utilizado consideremos un mensaje SOAP que podría ser enviado a una web service para realizar la búsqueda de algún precion en una base de datos, indicando para ello los parámetros necesitados en la consulta, un ejemplo, <b>precios, localización o características. Teniendo los datos de respuesta en un formato estandarizado procesable (en inglés "parsable"), éste puede ser integrado directamente en un sitio web o aplicación externa.</b></p>
+                                </div>
+                                <div>
+                                    <h4>TUNEL (Informática)</h4>	
+                                    <p>Se conoce como <b>túnel</b>  o <i>tunneling</i> a la técnica que consiste en encapsular un protocolo de red sobre otro (protocolo de red encapsulador) creando un túnel de información dentro de una red de computadoras. El uso de esta técnica persigue diferentes objetivos, dependiendo del problema que se está tratando, como por ejemplo la comunicación de islas en escenarios multicast, la redirección de tráfico, etc.</p>
+                                    <p>La técnica de <b>tunelizar</b>  se suele utilizar para transportar un protocolo determinado a través de una red que, en condiciones normales, no lo aceptaría. Otro uso de la tunelizacion de protocolos es la creación de diversos tipos de redes privadas y virtuales.</p>
+                                    <p>Uno de los ejemplos más claros de utilización de esta técnica consiste en la redirección de tráfico en escenarios IP Móvil.</p>
+                                </div>							
+                            </section>	
+                    </main>
+                    <aside>
+					<h3>Postman y otras Herramientas</h3>
                     <div class="post-jenkins">
-                        <h5>Postman y Jenkins</h5>
+                        <h5>"Postman y Jenkins"</h5>
                         <p>Configuracion de Postman para ejecucion desde Jenkins</p>
                     </div>
                     <div class="post-soap">
-                        <h5>Postamn y SOAP</h5>
+                        <h5>"Postman y SOAP"</h5>
                         <p>Configuracion de Postman para Peticiones SOAP</p>
                     </div>
                     <div class="post-remot">
-                        <h5>Postman Remotamente</h5>
+                        <h5>"Postman Remotamente"</h5>
                         <p>Configuracion y Ejecucion de Collecciones Remotamente con URL</p>
                     </div>
                     <table width="300">
@@ -233,107 +233,10 @@
                         </tfoot>
                     </table>
 				</aside>
-				<footer>
+                </div>
+            </div>
+            <footer class="clearfix">
                     <h3>TU Opinión es lo mas importante</h3>
-                    <form class="formulario">
-                        <fieldset>
-                            <legend>Queremos concer tu Opinión</legend>
-                            <label for="keywords">Palabras Clabe</label>
-                            <input type="text" id="keywords" autocomplet="on" placeholder="keyword" name="texto">
-                            <br><br>
-                            <label for="likes">Te gusto el Blog?</label>
-                            <input type="text" id="likes" autocomplet="on" placeholder="like it?" name="texto">
-                            <br><br>
-                            <label>Que Calificacion le das a la info?</label>
-                            <select>
-                                <option value="mala">Mala</option>
-                                <option value="regular">Regular</option>
-                                <option value="buena">Buena</option>
-                                <option value="muy-buena">Muy Buena</option>
-                                <option value="excelente">Excelente</option>
-                            </select>
-                        </fieldset>
-                        <fieldset>
-                            <legend>Selecciona tu Herramienta Faborita</legend>
-                            <input type="radio" id="herramienta" name="herramienta" value="JENKINS">JENKINS<br>
-                            <input type="radio" id="herramienta" name="herramienta" value="SOAP">SOAP<br>
-                            <input type="radio" id="herramienta" name="herramienta" value="Otras">Otras<br>
-                        </fieldset>
-                        <fieldset>
-                            <legend>Que Tipo de Peticiones as utilizado?</legend>
-                            <input type="checkbox" value="get">GET<br>
-                            <input type="checkbox" value="post">POST<br>
-                            <input type="checkbox" value="put">PUT<br>
-                            <input type="checkbox" value="patch">PATCH<br>
-                            <input type="checkbox" value="option">OPTION<br>
-                            <input type="checkbox" value="lock">LOCK<br>
-                            <input type="checkbox" value="lock">UNLOCK<br>
-                        </fieldset>
-                        <fieldset>
-                            <legend>De donde nos visitas?</legend>
-                            <label for="pais">Pais:</label>
-                            <select class="Pais" name="pais" id="pais">Selecciona tu país:
-                                <option value="Mexico">Mexico</option>
-                                <option value="China">China</option>
-                                <option value="Francia">Francia</option>
-                            </select>
-                            <br><br>
-                            <label>Ciudad</label>
-                            <input list="estado" name="region">
-                            <datalist id="estado">
-                                <option value="Sinaloa">
-                                <option value="Jalisco">
-                                <option value="Pekín">
-                                <option value="Paris">
-                            </datalist>
-                            <label></label>
-                        </fieldset>
-                        <fieldset>
-                            <legend>Sobre nuestra gente</legend>
-                            <label for="nombre">Cual es tu Nombre</label>
-                            <input type="text" id="nombre" name="nombre">
-                            <br><br>
-                            <label>Fecha de nacimiento</label>
-                            <input type="date" name="fehca">
-                            <br><br>
-                            <label for="correo">Correo electronico:</label>
-                            <input type="email" name="mail" placeholder="email@dominio.com" id="correo">
-                            <br><br>
-                            <label for="link">Comparte tu Link de info Favorito</label>
-                            <input type="url" name="url" placeholder="http//www.dominio.com" id="link">
-                            <br><br>
-                            <label>Elige un mes Especial para Aprender</label>
-                            <input type="month" name="mes">
-                            <br><br>
-                            <label>Cuanto sabes about Postman?</label>
-                            <input type="range" name="rango" min="0" max="10">
-                            <br><br>
-                            <label>En cuantos dias quieres Recibir info?</label>
-                            <input type="number" name="numero" min1="1" max="10">
-                            <br><br>
-                            <label>Elige tu color favorito</label>
-                            <input type="color" name="color">
-                            <br><br>
-                        </fieldset>
-                        <fieldset>
-                            <legend>Registrate GRATIS</legend>
-                            <label for="nombre">Nombre:</label>
-                            <input type="text" name="nombre" placeholder="Nombre" id="nombre" required><br><br>
-                            <label for="cumple">Fecha de Nacimiento:</label>
-                            <input type="date" name="fecha"  id="cumple"><br><br>
-                            <label for="pais">Nacionalidad:</label>
-                            <input type="text" name="pais" placeholder="Pais" id="pais"><br><br>
-                            <label for="mail">Correo electronico para recuperar password:</label>
-                            <input type="email" name="correo" placeholder="email@dominio.com" id="mail" required><br><br>
-                            <label for="user">Crea un User name:</label>
-                            <input type="text" name="usuario" placeholder="Usuario" id="user" required><br><br>
-                            <label for="pass">Crea una Contraseña:</label>
-                            <input type="password" name="contraseña" placeholder="Contraseña" id="pass" required><br><br>
-                        </fieldset>
-                        <br>
-                        <button type="reset" disabled>Borrar</button>
-                        <input type="submit" value="enviar"><br><br>
-                    </form>
 				    <div class="overview">
                         <h4>Postman - Herramienta - Peticiones</h4>
                         <p>Se trata de una herramienta dirigida a desarrolladores web que permite realizar peticiones HTTP a cualquier API.</p>
@@ -348,7 +251,6 @@
 							<li><a href="#Apendice">Apendice</a></li>
 						</ul>
 					</nav>
-				</footer>
-			</div>
+            </footer>
 		</body>
 	</html>
